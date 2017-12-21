@@ -1,0 +1,18 @@
+create materialized view MV_KECEPATAN_LAYANAN_PB
+refresh complete on demand
+start with to_date('22-09-2014 14:23:08', 'dd-mm-yyyy hh24:mi:ss') next SYSDATE+1/1152 
+as
+select
+  kode_unit,
+  count(*) as TOTAL_PELANGGAN,
+  count(case when kecepatan_layanan = 1 then kecepatan_layanan end) as DURASI_1SD3HARI,
+  count(case when kecepatan_layanan = 2 then kecepatan_layanan end) as DURASI_4SD10HARI,
+  count(case when kecepatan_layanan = 3 then kecepatan_layanan end) as DURASI_LEBIH_10HARI,
+  count(case when kecepatan_layanan = 4 then kecepatan_layanan end) as BELUM_NYALA
+
+from cbc_callback
+where
+  jenis_mutasi = 2
+  
+group by kode_unit,
+order by kode_unit ASC

@@ -1,0 +1,169 @@
+.button {
+    /* Disables default styling */
+    border: none;
+    background: #00B6FF;
+    color: #fff;
+
+    /* You need to set font, font size and cursor for buttons */
+    font-size: 15px;
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    cursor: pointer;
+
+    padding: 8px 13px;
+    font-weight: bold;
+}
+
+
+
+
+ .fontSmall {  font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  font-size: 11px;  color: #333333;  text-decoration: none;   }
+
+
+
+#table_main {
+	border: 1px solid #D6D9DC;
+}
+
+.text1 {
+	font-family: tahoma;
+	font-size: 11px;
+	color: C6B182;
+	font-weight: bold;
+}
+.text2 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: CC0000;
+}
+.text3 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+.text4 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+}
+.text5 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: 949494;
+}
+.text6 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #C6B182;
+}
+.text7 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+.text8 {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: 94AEC5;
+}
+.text9 {
+
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: 4E4E4E;
+}
+
+.textMotivasi {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666666;
+	font-weight: bold;
+}
+
+.textNormalStandardWhite {font-family: tahoma;font-size: 11px;color: #FFFFFF;font-weight: normal;}
+.textBoldStandardWhite {font-family: tahoma;font-size: 11px;color: #FFFFFF;font-weight: bold;}
+
+.textNormalStandardCoklatMuda {font-family: tahoma;font-size: 11px;color: #FFBA8C;font-weight: normal;}
+.textBoldStandardCoklatMuda {font-family: tahoma;font-size: 11px;color: #FFBA8C;font-weight: bold;}
+
+
+.textNormalStandardBiruMuda {font-family: tahoma;font-size: 11px;color: #CBD5DE; font-weight: normal;}
+.textBoldStandardBiruMuda {font-family: tahoma;font-size: 11px;color: #002B55; font-weight: bold;}
+.textBoldBigBiruMuda {font-family: tahoma;font-size: 15px;color: #002B55; font-weight: bold;}
+
+.textNormalStandardBiruTua {font-family: tahoma;font-size: 11px;color: #002B55;font-weight: normal;}
+.textBoldStandardBiruTua {font-family: tahoma;font-size: 11px;color: #002B55;font-weight: bold;}
+
+.textBoldBigStandardBiruTua {font-family: "Segoe UI", "Arial", "Verdana","Lucida Sans Unicode", "Lucida Grande" ; font-size: 16px;color: #004080;font-weight: bold;}
+
+.textBoldSmallStandardBiruTua {font-family: "Segoe UI", "Arial", "Verdana","Lucida Sans Unicode", "Lucida Grande" ; font-size: 12px;color: #004080;font-weight: none;}
+
+.textBoldStandardRed {font-family: tahoma; font-size: 11px;color: #FF0000;font-weight: bold;}
+
+.textNoLink { color: #005a88; font-family: tahoma; font-size: 11px; font-weight: bold;	font-style: normal;	text-decoration: none; }
+
+.textNormalStandardCoklatTua {font-family: tahoma;font-size: 11px;color: #990000;font-weight: normal;}
+.textBoldStandardCoklatTua {font-family: tahoma;font-size: 11px;color: #990000;font-weight: bold;}
+
+
+.textStandard {	font-family: tahoma;font-size: 12px;font-weight: normal;color: #666666;}
+
+/* begin default link */
+a.default_link:link { color: #3E4B4F; font-family: tahoma; font-size: 11px; font-weight: bold;	font-style: normal;	text-decoration: none; }
+a.default_link:visited {color: #3E4B4F;	font-family: tahoma;font-size: 11px; font-weight: bold;	font-style: normal;	text-decoration: none; }
+a.default_link:hover {color: #FF0000;font-family: tahoma;font-size: 11px; font-weight: bold; font-style: normal;text-decoration: none;}
+a.default_link:active {	color: #FF0000;	font-family: tahoma;font-size: 11px; font-weight: bold; font-style: normal; text-decoration: none;}
+/* end default link */
+
+
+/* begin default link small*/
+a.default_linkSmall:link { color: #FFBA8C; font-family: tahoma; font-size: 11px; font-weight: normal;	font-style: normal;	text-decoration: none; }
+a.default_linkSmall:visited {color: #FFBA8C;font-family: tahoma;font-size: 11px; font-weight: normal;	font-style: normal;	text-decoration: none; }
+a.default_linkSmall:hover {color: #FFFFFF;font-family: tahoma;font-size: 11px; font-weight: normal; font-style: normal;text-decoration: none;}
+a.default_linkSmall:active {color: #FFBA8C;	font-family: tahoma;font-size: 11px; font-weight: normal; font-style: normal; text-decoration: underline;}
+/* end default link small */
+
+/* begin default link small blue*/
+a.default_linkSmall_blue:link { color: #CBD5DE; font-family: tahoma; font-size: 11px; font-weight: normal;	font-style: normal;	text-decoration: none; }
+a.default_linkSmall_blue:visited {color: #CBD5DE;font-family: tahoma;font-size: 11px; font-weight: normal;	font-style: normal;	text-decoration: none; }
+a.default_linkSmall_blue:hover {color: #FFFFFF;font-family: tahoma;font-size: 11px; font-weight: normal; font-style: normal;text-decoration: none;}
+a.default_linkSmall_blue:active {color: #CBD5DE;	font-family: tahoma;font-size: 11px; font-weight: normal; font-style: normal; text-decoration: underline;}
+/* end default link small blue*/
+
+/* begin default link small blue tua*/
+a.default_linkSmall_blue_tua:link { color: #004080; font-family: tahoma; font-size: 11px; font-weight: normal;	font-style: normal;	text-decoration: none; }
+a.default_linkSmall_blue_tua:visited {color: #004080;font-family: tahoma;font-size: 11px; font-weight: normal;	font-style: normal;	text-decoration: none; }
+a.default_linkSmall_blue_tua:hover {color: #004080;font-family: tahoma;font-size: 11px; font-weight: normal; font-style: normal;text-decoration: underline;}
+a.default_linkSmall_blue_tua:active {color: #004080;	font-family: tahoma;font-size: 11px; font-weight: normal; font-style: normal; text-decoration: underline;}
+/* end default link small blue tua */
+
+
+/* begin default link small blue bold tua*/
+a.default_linkSmall_bold_blue:link { color: #005a88; font-family: tahoma; font-size: 11px; font-weight: bold;	font-style: normal;	text-decoration: none; }
+a.default_linkSmall_bold_blue:visited {color: #005a88;font-family: tahoma;font-size: 11px; font-weight: bold;	font-style: normal;	text-decoration: none; }
+a.default_linkSmall_bold_blue:hover {color: #138cdd;font-family: tahoma;font-size: 11px; font-weight: bold; font-style: normal;text-decoration: none;}
+a.default_linkSmall_bold_blue:active {color: #005a88;	font-family: tahoma;font-size: 11px; font-weight: bold; font-style: normal; text-decoration: underline;}
+/* end default link small blue tua */
+
+
+/* begin default link small blue bold tua*/
+a.default_linkSmall_bold_blue_muda:link { color: #CBD5DE; font-family: tahoma; font-size: 11px; font-weight: bold;	font-style: normal;	text-decoration: none; }
+a.default_linkSmall_bold_blue_muda:visited {color: #CBD5DE;font-family: tahoma;font-size: 11px; font-weight: bold;	font-style: normal;	text-decoration: none; }
+a.default_linkSmall_bold_blue_muda:hover {color: #FFFFFF;font-family: tahoma;font-size: 11px; font-weight: bold; font-style: normal;text-decoration: none;}
+a.default_linkSmall_bold_blue_muda:active {color: #CBD5DE;	font-family: tahoma;font-size: 11px; font-weight: bold; font-style: normal; text-decoration: underline;}
+/* end default link small blue tua */
+
+.lineSmall {font-family: tahoma;font-size: 11px;color: #D9E8FF;font-weight: normal;}
+
+.borderPicture {font-family: tahoma;font-size: 4px;color: #7D7D7D;font-weight: normal;}
+
+

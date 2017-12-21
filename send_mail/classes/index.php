@@ -1,0 +1,1 @@
+<?php//Kembali ke halaman awalheader("Location: ../index.php"); exit;?>

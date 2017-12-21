@@ -1,0 +1,14 @@
+create materialized view MV_PENGGUNA_KINERJA_BLTH
+refresh complete on demand
+start with to_date('22-09-2014 14:30:25', 'dd-mm-yyyy hh24:mi:ss') next SYSDATE+1/1152 
+as
+
+select
+  id_penggguna as ID_USER,
+  count(case when jenis_mutasi = 1 then jenis_mutasi end) as PASANG_BARU,
+  count(case when jenis_mutasi = 2 then jenis_mutasi end) as PERUBAHAN_DAYA,
+  count(*) as TOTAL_PELANGGAN,
+  callback_bulan    
+
+from cbc_callback 
+group by id_penggguna,callback_bulan

@@ -1,0 +1,22 @@
+create materialized view MV_BIAYA_ORANGLAIN_PB
+refresh complete on demand
+start with to_date('22-09-2014 14:23:08', 'dd-mm-yyyy hh24:mi:ss') next SYSDATE+1/1152 
+as
+
+select 
+  kode_unit,
+  count(*) as TOTAL_PELANGGAN,
+  count(case when permintaan_via = 1 then permintaan_via end) as DIURUS_ORANGLAIN,
+  --count(case when permintaan_via = 2 then permintaan_via end) as DIURUS_SENDIRI
+  count(case when tambahan_biaya = 1 then tambahan_biaya end) as TAMBAHAN_BIAYA_YES,
+  count(case when tambahan_biaya = 2 then tambahan_biaya end) as TAMBAHAN_BIAYA_NO
+    
+from cbc_callback
+where
+  jenis_mutasi = 1
+and
+  permintaan_via = 1
+  
+
+group by kode_unit
+order by kode_unit ASC

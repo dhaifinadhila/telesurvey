@@ -1,0 +1,17 @@
+create materialized view MV_ANALISA_DIURUS_PB_BLTH
+refresh complete on demand
+start with to_date('22-09-2014 14:30:25', 'dd-mm-yyyy hh24:mi:ss') next SYSDATE+1/1152 
+as
+select 
+  kode_unit,
+  count(*) as TOTAL_PELANGGAN,
+  count(case when permintaan_via = 1 then permintaan_via end) as DIURUS_ORANGLAIN,
+  count(case when permintaan_via = 2 then permintaan_via end) as DIURUS_SENDIRI,     
+  callback_bulan as BLTH  
+    
+from cbc_callback
+where
+  jenis_mutasi = 1
+
+group by kode_unit, callback_bulan
+order by kode_unit, callback_bulan ASC

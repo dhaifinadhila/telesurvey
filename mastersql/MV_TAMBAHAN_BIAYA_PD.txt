@@ -1,0 +1,18 @@
+create materialized view MV_TAMBAHAN_BIAYA_PD
+refresh complete on demand
+start with to_date('22-09-2014 14:43:04', 'dd-mm-yyyy hh24:mi:ss') next SYSDATE+1/1152 
+as
+select
+  kode_unit,
+  count(*) as TOTAL_PELANGGAN,
+  count(case when tambahan_biaya = 1 then tambahan_biaya end) as TAMBAHAN_BIAYA_YES,
+  count(case when tambahan_biaya = 2 then tambahan_biaya end) as TAMBAHAN_BIAYA_NO,
+  count(case when tambahan_biaya_alasan = 1 then tambahan_biaya_alasan end) as ALASAN_JASA_LAYANAN,
+  count(case when tambahan_biaya_alasan = 2 then tambahan_biaya_alasan end) as ALASAN_PERCEPATAN,
+  count(case when tambahan_biaya_alasan = 3 then tambahan_biaya_alasan end) as ALASAN_JAMINAL_SLO,
+  count(case when tambahan_biaya_alasan = 4 then tambahan_biaya_alasan end) as ALASAN_TIP
+
+from cbc_callback
+where
+  jenis_mutasi = 2
+group by kode_unit;

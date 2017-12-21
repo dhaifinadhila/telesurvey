@@ -1,0 +1,126 @@
+#login form .submit input {
+	font-family: "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+	padding: 3px 10px;
+	border: none;
+	font-size: 12px;
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	cursor: pointer;
+	text-decoration: none;
+	margin-top: -3px;
+	text-shadow: rgba(0,0,0,0.3) 0 -1px 0;
+}
+
+
+#input_search {
+	font-size: 20px;
+	width: 100%;
+	padding: 3px;
+	margin-top: 2px;
+	margin-right: 6px;
+	margin-bottom: 16px;
+	border: 1px solid #9fb6cd;
+	background: #e5e5e5;
+}
+
+#button {
+	background: #fff; 
+	padding: 1px;
+	font-family: Geneva, Vera, Arial, Helvetica, sans-serif; 
+	font-size: x-small; 
+	font-variant: small-caps; 
+	border: 1px solid #999999;
+}
+
+/*search box*/
+
+#search_box {
+    width: 400px;
+    height: 45px;	
+    background: url(../images/pic_search_box.gif);
+}
+
+#search_box #s {
+    float: left;
+    padding: 2px 4px;
+    margin: 6px 0 0 11px;
+    border: 0;
+	font-size: 20px;
+    width: 340px;
+    background: none;
+}
+
+#search_box #go {
+    float: right;
+	padding: 2px 2px;
+    margin: 6px 4px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#jq-primarySearchForm {
+position: absolute;
+right: 50px;
+bottom: 15px;
+}
+#jq-primarySearchForm label {
+font-size: 1.3em;
+font-style: italic;
+font-weight: bold;
+color: #fff;
+line-height: 1;
+margin-right: .5em;
+}
+
+#jq-primarySearchForm input#jq-primarySearch {
+width: 286px;
+height: 19px;
+padding: 2px 5px;
+font-size: 1.4em;
+color: #333;
+background: #fff;
+border: 1px solid #aaa;
+line-height: 1;
+font-size: 1.5em;
+-moz-border-radius: 10px;
+}
+#jq-primarySearchForm button {
+background: url(../img/icon_searchglass.png) 0 0 no-repeat;
+_background-image: url(../img/icon_searchglass.gif);
+position: relative;
+width: 35px; 
+height: 35px;
+position: absolute;
+right: -18px;
+top: -1px;
+border: 0;
+cursor: pointer;
+font-size: 1.1em;
+}
+#jq-primarySearchForm button span {
+position: absolute;
+left: -9999999px;
+}
+#jq-primarySearchForm button:hover {
+background-position: 0 -36px;
+}
+
+
+			

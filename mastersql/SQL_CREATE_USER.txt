@@ -1,0 +1,23 @@
+-- Create the user 
+create user callback
+  identified by "callback"
+  default tablespace USERS
+  temporary tablespace TEMP
+  profile DEFAULT;
+-- Grant/Revoke role privileges 
+grant connect to callback;
+grant dba to callback;
+grant resource to callback;
+-- Grant/Revoke system privileges 
+grant create database link to callback;
+grant create materialized view to callback;
+grant create procedure to callback;
+grant create public synonym to callback;
+grant create role to callback;
+grant create sequence to callback;
+grant create synonym to callback;
+grant create table to callback;
+grant create trigger to callback;
+grant create type to callback;
+grant create view to callback;
+grant unlimited tablespace to callback;

@@ -1,0 +1,42 @@
+<?
+include_once("function_cbc_pengguna.php");
+include_once("config.php");
+
+$data = cbc_pengguna_view_all();
+echo $data[0]['NAMA'];
+echo "<pre>";
+print_r($data);
+echo "</pre>";
+
+$VAR_KODE_DISTRIBUSI='54';
+$VAR_KODE_UNIT='54';
+$VAR_KODE_RAYON='54110';
+$VAR_NIP='666666Z';
+$VAR_EMAIL='swadiono.subali@pln.co.id';
+$VAR_PASSWORD='123456';
+$VAR_NAMA='Swadiono Subali';
+$VAR_JABATAN='DM TI';
+$VAR_HAK_AKSES='200';
+$VAR_TARGET_CALL='10';
+$VAR_INFORMASI_01='01';
+$VAR_INFORMASI_02='02';
+$VAR_INFORMASI_03='03';
+$VAR_INFORMASI_04='04';
+$VAR_INFORMASI_05='05';
+$VAR_INFORMASI_06='06';
+$VAR_INFORMASI_07='07';
+$VAR_INFORMASI_08='08';
+$VAR_INFORMASI_09='09';
+$VAR_INFORMASI_10='10';
+
+
+//DEMO INSERT
+//cbc_pengguna_insert($VAR_KODE_DISTRIBUSI, $VAR_KODE_UNIT, $VAR_KODE_RAYON, $VAR_NIP, $VAR_EMAIL, $VAR_PASSWORD, $VAR_NAMA, $VAR_JABATAN, $VAR_HAK_AKSES, $VAR_TARGET_CALL, $VAR_INFORMASI_01, $VAR_INFORMASI_02, $VAR_INFORMASI_03, $VAR_INFORMASI_04, $VAR_INFORMASI_05, $VAR_INFORMASI_06, $VAR_INFORMASI_07, $VAR_INFORMASI_08, $VAR_INFORMASI_09, $VAR_INFORMASI_10);
+
+
+//DEMO DELETE 
+//$id_cbc_pengguna=2;
+//cbc_pengguna_delete($id_cbc_pengguna);
+ 
+
+?>

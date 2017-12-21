@@ -1,0 +1,16 @@
+CREATE MATERIALIZED VIEW MV_CBC_REKAP_PBPD
+REFRESH COMPLETE ON DEMAND
+START WITH TO_DATE('20-09-2014 20:00:00', 'DD-MM-YYYY HH24:MI:SS') NEXT SYSDATE+1/1152
+AS
+
+
+select 
+  kode_unit,
+  count(*) as TOTAL_PELANGGAN,
+  count(case when tambahan_biaya = 1 then tambahan_biaya end) as PELANGGAN_BIAYA_TAMBAHAN,
+  count(case when permintaan_via = 2 then permintaan_via end) as PELANGGAN_MENGURUS_SENDIRI,
+  count(case when kecepatan_layanan = 1 then kecepatan_layanan end) as DURASI_KURANG_4HARI
+     
+from cbc_callback
+group by kode_unit
+order by kode_unit ASC

@@ -1,0 +1,26 @@
+CREATE MATERIALIZED VIEW MV_HTS_PB_BLTH
+REFRESH COMPLETE ON DEMAND
+START WITH TO_DATE('20-09-2014 20:00:00', 'DD-MM-YYYY HH24:MI:SS') NEXT SYSDATE+1/1152
+AS
+
+select 
+  kode_unit,
+  count(*) as TOTAL_PELANGGAN,
+  count(case when nomor_telp_pelanggan = 1 then nomor_telp_pelanggan end) as TELP_PELANGGAN_YES,
+  count(case when nomor_telp_pelanggan = 2 then nomor_telp_pelanggan end) as TELP_PELANGGAN_NO,
+  count(case when nomor_telp_pelanggan_bukan = 1 then nomor_telp_pelanggan_bukan end) as TELP_PELANGGAN_FAMILY,  
+  count(case when nomor_telp_pelanggan_bukan = 2 then nomor_telp_pelanggan_bukan end) as TELP_PELANGGAN_ORANGLAIN,  
+  count(case when permintaan_via = 1 then permintaan_via end) as PROSES_ORANGLAIN,
+  count(case when permintaan_via = 2 then permintaan_via end) as PROSES_SENDIRI,
+  count(case when permintaan_via_oranglain = 1 then permintaan_via_oranglain end) as DIBANTU_PETUGAS_PLN_KANTOR,  
+  count(case when permintaan_via_oranglain = 2 then permintaan_via_oranglain end) as DIBANTU_PETUGAS_PLN_LAPANGAN,  
+  count(case when permintaan_via_oranglain = 3 then permintaan_via_oranglain end) as DIBANTU_BIRO_JASA,  
+  count(case when permintaan_via_oranglain = 4 then permintaan_via_oranglain end) as DIBANTU_LAINYA,
+  callback_bulan as BLTH  
+    
+from cbc_callback
+where
+  jenis_mutasi = 1
+
+group by kode_unit, callback_bulan
+order by kode_unit, callback_bulan ASC

@@ -1,0 +1,53 @@
+<?
+include_once("function_cbc_rayon.php");
+include_once("config.php");
+
+$data = cbc_rayon_view_all();
+ 
+echo "<pre>";
+print_r($data);
+echo "</pre>";
+
+$VAR_ID_RAYON=NULL;
+$VAR_KODE_DISTRIBUSI='54';
+$VAR_KODE_UNIT='54110';
+$VAR_KODE_RAYON='110';
+$VAR_NAMA_RAYON='SKU MENTENG';
+$VAR_ALAMAT='JLN GROGOL no 1 JAKPUS';
+$VAR_INFORMASI_01='1';
+$VAR_INFORMASI_02='2';
+$VAR_INFORMASI_03='3';
+$VAR_INFORMASI_04='4';
+$VAR_INFORMASI_05='5';
+$VAR_INFORMASI_06='6';
+$VAR_INFORMASI_07='7';
+$VAR_INFORMASI_08='8';
+$VAR_INFORMASI_09='9';
+$VAR_INFORMASI_10='10';
+
+
+cbc_rayon_insert(
+		$VAR_ID_RAYON,
+		$VAR_KODE_DISTRIBUSI,
+		$VAR_KODE_UNIT,
+		$VAR_KODE_RAYON,
+		$VAR_NAMA_RAYON,
+		$VAR_ALAMAT,
+		$VAR_INFORMASI_01,
+		$VAR_INFORMASI_02,
+		$VAR_INFORMASI_03,
+		$VAR_INFORMASI_04,
+		$VAR_INFORMASI_05,
+		$VAR_INFORMASI_06,
+		$VAR_INFORMASI_07,
+		$VAR_INFORMASI_08,
+		$VAR_INFORMASI_09,
+		$VAR_INFORMASI_10
+		);
+
+//DEMO DELETE 
+//$id_cbc_rayon=2;
+//cbc_rayon_delete($id_cbc_rayon);
+ 
+
+?>

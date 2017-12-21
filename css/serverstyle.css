@@ -1,0 +1,292 @@
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	background-color: #414141;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+
+
+hr {
+ 	    border: none;
+ 	    /* top    */ border-top: 1px solid #FFFFFF;
+     /* middle */ background-color: #ddd; color: #ddd;
+ 	    /* bottom */ border-bottom: 1px solid #eee;
+ 	    height: 1px;
+ 	    *height: 3px; /* IE6+7 need the total height */
+ 	}
+
+.BoxForComment_brown{
+	background-color: #F8F1D6;  
+    border: 1px solid #FFFFFF;  
+    color: #333333;  
+    padding: 4px;      
+}
+
+.BoxForComment_blue{
+	background-color: #f7f7f7;  
+    color: #333333;  
+    padding: 1px;  
+  
+}
+
+ ._css_font_default_11{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #333333;  
+	text-decoration: none;   
+	font-weight: normal;
+}
+
+ ._css_font_default_11_blue_young{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #666666;  
+	text-decoration: none;  
+	font-weight: normal; 
+}
+
+ ._css_font_default_11_blue{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #f2f2f2;  
+	text-decoration: none;   
+	font-weight: normal;
+}
+
+ ._css_font_default_11_white{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #FFFFFF;  
+	text-decoration: none;   
+	font-weight: normal;
+}
+
+ ._css_font_default_11_black{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #000000;  
+	text-decoration: none;   
+	font-weight: normal;
+}
+
+ ._css_font_default_11_red{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #FF0000;  
+	text-decoration: none;   
+	font-weight: normal;
+}
+
+
+
+ ._css_font_default_11_b{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #666666;  
+	text-decoration: none;   
+}
+
+ ._css_font_default_12{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 12px;  
+	color: #333333;  
+	text-decoration: none;   
+}
+
+ ._css_font_default_14{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 14px;  
+	color: #333333;  
+	text-decoration: none;   
+}
+
+ ._css_font_default_16{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 16px;  
+	color: #333333;  
+	text-decoration: none;   
+}
+
+
+ /* Begin  _css_font_default_link_11 */
+
+ ._css_font_default_link_11{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #666666;  
+	text-decoration: none;   
+}
+
+a._css_font_default_link_11:visited{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #666666;  
+	text-decoration: none;   
+}
+
+a._css_font_default_link_11:hover{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #138cdd;  
+	text-decoration: none;   
+}
+
+a._css_font_default_link_11:active{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #005a88;  
+	text-decoration: none;   
+}
+
+ /* END  _css_font_default_link_11 */
+
+  /* Begin  _link_brown_white_11 */
+ ._link_brown_white_11{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #3C3C3C;  
+	text-decoration: none;   
+}
+
+a._link_brown_white_11:visited{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #3C3C3C;  
+	text-decoration: none;   
+}
+
+a._link_brown_white_11:hover{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #F5F5F5;  
+	text-decoration: none;   
+}
+
+a._link_brown_white_11:active{  
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px;  
+	color: #FFFFFF;  
+	text-decoration: none;   
+}
+ /* END  _link_brown_white_11 */
+
+
+._css_input_text{
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 13px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #F9F9F0; 
+	padding: 2px 3px 4px 5px;
+}
+._css_input_text:hover {
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 13px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #FFFFF2; 
+	padding: 2px 3px 4px 5px;
+}
+
+._css_input_text:focus {
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 13px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #FFFFCC; 
+	padding: 2px 3px 4px 5px;
+}
+ 
+
+
+
+/* begin readonly input */
+._css_input_text_ro{
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 13px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #f2f2f2; 
+	padding: 2px 3px 4px 5px;
+}
+ 
+ 
+/* end readonly input */
+
+
+
+
+
+/* begin textarea comment */
+._css_comment{
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #F9F9F0; 
+	padding: 2px 3px 4px 5px;
+}
+._css_comment:hover {
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #FFFFF2; 
+	padding: 2px 3px 4px 5px;
+}
+
+._css_comment:focus {
+	font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+	font-size: 11px; 
+	border:1px solid #cccccc;
+	color:#666666;
+	background-color: #FFFFCC; 
+	padding: 2px 3px 4px 5px;
+}
+ 
+/* end text area comment*/
+
+.menu{
+    width: 100%;
+    background-color: #333; 
+}
+
+.menu ul{
+    margin: 0; padding: 0;
+    float: left;}
+ 
+.menu ul li{
+    display: inline;}
+ 
+.menu ul li a{
+    float: left; text-decoration: none;
+    color: white;
+    padding: 10.5px 11px;
+    background-color: #333; }
+ 
+.menu ul li a:visited{
+    color: white;}
+ 
+.menu ul li a:hover, .menu ul li .current{
+    color: #fff;
+    background-color:#0b75b2;}
+
+ 

@@ -1,0 +1,87 @@
+.fgGrayBox{
+	background-color: #f7f7f7;  
+    border: 1px solid #cccccc;  
+    color: #333333;  
+    padding: 10px;  
+}
+
+.Default_EditBox{
+	background-color: #FFFFFF;  
+    border: 1px solid #cccccc;  
+    color: #333333;  
+    padding: 1px;  
+    font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
+    font-color: #333333;  	
+}
+
+.fgGrayBox_white{
+	background-color: #E8E7F8;  
+    border: 1px solid #cccccc;  
+    color: #333333;  
+    padding: 10px;  
+    font-size: 13px;  
+    font-weight: bold;
+}
+
+.backgoundBox {
+	background-color: #DCDEEF;  
+	border-top: 1px solid #cccccc; 
+    border-right: 1px solid #cccccc;  
+	border-left: 1px solid #cccccc;      
+    border-bottom: 1px solid #cccccc;  
+    padding: 10px;  
+}
+
+.BorderBox_NoPad {
+	background-color: #FFFFFF;  
+	border-top: 1px solid #cccccc; 
+    border-right: 1px solid #cccccc;  
+	border-left: 1px solid #cccccc;      
+    border-bottom: 1px solid #cccccc;  
+  
+}
+
+
+.BorderBox {
+	background-color: #f7f7f7;  
+	border-top: 1px solid #cccccc; 
+    border-right: 1px solid #cccccc;  
+	border-left: 1px solid #cccccc;      
+    border-bottom: 1px solid #cccccc;  
+    padding: 1px;  
+}
+
+.BorderBox_NoColor {
+	border-top: 1px solid #cccccc; 
+    border-right: 1px solid #cccccc;  
+	border-left: 1px solid #cccccc;      
+    border-bottom: 1px solid #cccccc;  
+    padding: 0px;  
+}
+
+.BorderBox_Top_Right{
+	background-color: #FFFFFF;  
+	border-top: 1px solid #cccccc; 
+    border-right: 1px solid #cccccc;  
+	/* border-left: 1px solid #cccccc;   */     
+    /* border-bottom: 1px solid #cccccc;  */ 
+    padding: 10px;  
+}
+
+.BorderBox_Top_Bottom{
+	background-color: #FFFFFF;  
+	border-top: 1px solid #cccccc; 
+    border-bottom: 1px solid #cccccc;  
+    padding: 10px;  
+}
+
+.BorderBox_Bottom{
+	background-color: #FFFFFF;  
+    border-bottom: 1px solid #cccccc;  
+    padding: 10px;  
+}
+
+
+.lineGreyShort h3{ border-bottom:1px solid #CCCCCC; font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  font-size:11px; font-weight:bold; color: #999999; padding-top: 1px; display:block; margin:0; } 
+
+.some_div linesmall { border-bottom:1px solid #CCCCCC; font-size:13px; font-weight:bold; color: #999999; padding-top: 15px; display:block; margin:0; } 
